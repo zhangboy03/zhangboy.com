@@ -1,19 +1,24 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
   <meta charset="UTF-8" />
-  <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+  <link rel="icon" type="image/svg+xml" href="favicon.svg" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Boyu Zhang - Building Education for Millions</title>
-  <meta name="description" content="Boyu Zhang builds AI-enabled education products reaching 8M+ learners. Founder of Qingnian Ge, Stanford LDT applicant." />
-  
+  <title>Boyu Zhang - Education Product Portfolio</title>
+  <meta name="description"
+    content="Boyu Zhang's portfolio: AI-enabled education products reaching 8M+ learners. Founder of Qingnian Ge, Product Lead at MAIC." />
+
   <!-- Google Fonts -->
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500;600;700&family=Poppins:wght@400;500;600;700&display=swap" rel="stylesheet">
-  
-  <link rel="stylesheet" href="/style.css">
+  <link
+    href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500;600;700&family=Poppins:wght@400;500;600;700&display=swap"
+    rel="stylesheet">
+
+  <link rel="stylesheet" href="style.css">
 </head>
+
 <body>
   <!-- Floating Navbar -->
   <nav class="navbar">
@@ -33,7 +38,8 @@
       <div class="hero-text">
         <p class="hero-greeting">Hi, I'm</p>
         <h1 class="hero-title">Boyu Zhang</h1>
-        <p class="hero-subtitle">Building education products that reach<br><span class="highlight">millions of learners</span></p>
+        <p class="hero-subtitle">Building education products that reach<br><span class="highlight">millions of
+            learners</span></p>
         <div class="hero-tags">
           <span class="tag">Tsinghua University</span>
           <span class="tag">8M+ Learners</span>
@@ -45,13 +51,13 @@
         </div>
       </div>
       <div class="hero-image">
-        <img src="/images/profile.jpg" alt="Boyu Zhang" />
+        <img src="images/profile.jpg" alt="Boyu Zhang" />
       </div>
     </div>
     <div class="scroll-indicator">
       <span>Scroll to explore</span>
       <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
-        <path d="M12 5v14M19 12l-7 7-7-7"/>
+        <path d="M12 5v14M19 12l-7 7-7-7" />
       </svg>
     </div>
   </section>
@@ -63,16 +69,19 @@
       <div class="about-content">
         <div class="about-text">
           <p class="about-intro">
-            I'm an aerospace engineering student at <strong>Tsinghua University</strong> who pivoted to education technology. 
-            I believe in doing <em>things that benefit humanity</em>—and I've found my calling in making quality education accessible to everyone.
+            I'm an aerospace engineering student at <strong>Tsinghua University</strong> who pivoted to education
+            technology.
+            I believe in doing <em>things that benefit humanity</em>—and I've found my calling in making quality
+            education accessible to everyone.
           </p>
           <p>
-            Through building AI-enabled learning products and running an education media platform, 
-            I've learned to combine <strong>technology, product thinking, and learning science</strong> into tools that actually help students learn.
+            Through building AI-enabled learning products and running an education media platform,
+            I've learned to combine <strong>technology, product thinking, and learning science</strong> into tools that
+            actually help students learn.
           </p>
           <p>
-            I'm currently applying to <strong>Stanford GSE's Learning Design and Technology</strong> program 
-            to develop a stronger foundation in learning sciences and research methodology.
+            My work focuses on bridging the gap between cutting-edge AI technology and real classroom needs,
+            especially for students in under-resourced communities.
           </p>
         </div>
         <div class="about-belief">
@@ -89,19 +98,29 @@
   <section id="projects" class="projects">
     <div class="container">
       <h2 class="section-title">Featured Projects</h2>
-      
+
       <div class="project-grid">
         <!-- Project 1: Qingnian Ge -->
         <article class="project-card featured">
           <div class="project-image">
-            <img src="/images/xiaohongshu.png" alt="Qingnian Ge on Xiaohongshu" />
+            <img src="images/douyin.png" alt="Qingnian Ge on Douyin" />
           </div>
           <div class="project-info">
             <span class="project-label">Founder • 2024 - Present</span>
-            <h3 class="project-title">Qingnian Ge</h3>
+            <h3 class="project-title">
+              <a href="https://www.douyin.com/jingxuan/search/清年阁?aid=e3de3062-4916-40a8-a440-06be144a72df&type=general"
+                target="_blank" rel="noopener">
+                Qingnian Ge
+                <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                  <path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6" />
+                  <polyline points="15 3 21 3 21 9" />
+                  <line x1="10" y1="14" x2="21" y2="3" />
+                </svg>
+              </a>
+            </h3>
             <p class="project-subtitle">House of Youth</p>
             <p class="project-description">
-              Free micro-learning platform delivering curriculum-aligned lessons to students in under-resourced regions. 
+              Free micro-learning platform delivering curriculum-aligned lessons to students in under-resourced regions.
               Built end-to-end: content design, knowledge visualization, and analytics-driven iteration.
             </p>
             <div class="project-metrics">
@@ -118,17 +137,37 @@
                 <span class="metric-label">Lessons</span>
               </div>
             </div>
+            <div class="project-actions">
+              <button class="btn btn-outline" onclick="openVideoModal('qingnian-video')">
+                <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                  <polygon points="5 3 19 12 5 21 5 3" />
+                </svg>
+                Watch Introduction
+              </button>
+            </div>
           </div>
         </article>
 
         <!-- Project 2: MAIC -->
-        <article class="project-card">
+        <article class="project-card featured">
+          <div class="project-image">
+            <img src="images/MAIC.png" alt="MAIC Platform" />
+          </div>
           <div class="project-info">
             <span class="project-label">Product Team • 2025 - Present</span>
-            <h3 class="project-title">MAIC</h3>
+            <h3 class="project-title">
+              <a href="https://maic.chat/signin?redirect=%2F" target="_blank" rel="noopener">
+                MAIC
+                <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                  <path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6" />
+                  <polyline points="15 3 21 3 21 9" />
+                  <line x1="10" y1="14" x2="21" y2="3" />
+                </svg>
+              </a>
+            </h3>
             <p class="project-subtitle">AI-Enabled Classroom Learning System</p>
             <p class="project-description">
-              Designed classroom orchestration: mastery-gated units, formative checks, and teacher facilitation cues. 
+              Designed classroom orchestration: mastery-gated units, formative checks, and teacher facilitation cues.
               Shifts teachers from lecturing to high-leverage coaching.
             </p>
             <div class="project-metrics">
@@ -141,17 +180,28 @@
                 <span class="metric-label">Students</span>
               </div>
             </div>
+            <div class="project-actions">
+              <button class="btn btn-outline" onclick="openVideoModal('maic-videos')">
+                <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                  <polygon points="5 3 19 12 5 21 5 3" />
+                </svg>
+                Watch Demo Videos
+              </button>
+            </div>
           </div>
         </article>
 
         <!-- Project 3: Homework AI -->
-        <article class="project-card">
+        <article class="project-card featured">
+          <div class="project-image">
+            <img src="images/Recommend.png" alt="Homework Recommendation System" />
+          </div>
           <div class="project-info">
             <span class="project-label">Product Builder • 2025</span>
             <h3 class="project-title">Homework AI</h3>
             <p class="project-subtitle">Targeted Practice Recommendation</p>
             <p class="project-description">
-              AI system that analyzes homework errors, identifies knowledge gaps, and generates targeted practice sets. 
+              AI system that analyzes homework errors, identifies knowledge gaps, and generates targeted practice sets.
               Deployed to under-resourced classrooms.
             </p>
             <div class="project-metrics">
@@ -164,37 +214,18 @@
                 <span class="metric-label">Students</span>
               </div>
             </div>
+            <div class="project-actions">
+              <a href="docs/Instructions.pdf" class="btn btn-outline" download>
+                <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                  <path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4" />
+                  <polyline points="7 10 12 15 17 10" />
+                  <line x1="12" y1="15" x2="12" y2="3" />
+                </svg>
+                Download Instructions
+              </a>
+            </div>
           </div>
         </article>
-      </div>
-    </div>
-  </section>
-
-  <!-- Impact Section -->
-  <section id="impact" class="impact">
-    <div class="container">
-      <h2 class="section-title">Impact at Scale</h2>
-      <div class="impact-grid">
-        <div class="impact-stat">
-          <span class="impact-number" data-target="8000000">0</span>
-          <span class="impact-suffix">+</span>
-          <span class="impact-label">Followers Reached</span>
-        </div>
-        <div class="impact-stat">
-          <span class="impact-number" data-target="2000000000">0</span>
-          <span class="impact-suffix">+</span>
-          <span class="impact-label">Content Views</span>
-        </div>
-        <div class="impact-stat">
-          <span class="impact-number" data-target="8">0</span>
-          <span class="impact-suffix"></span>
-          <span class="impact-label">Partner Schools</span>
-        </div>
-        <div class="impact-stat">
-          <span class="impact-number" data-target="20">0</span>
-          <span class="impact-suffix">pts</span>
-          <span class="impact-label">Average Score Improvement</span>
-        </div>
       </div>
     </div>
   </section>
@@ -226,7 +257,8 @@
         </div>
       </div>
       <div class="media-link">
-        <a href="https://www.chinadaily.com.cn/a/202503/12/WS67d0d650a310c240449da423.html" target="_blank" rel="noopener">
+        <a href="https://www.chinadaily.com.cn/a/202503/12/WS67d0d650a310c240449da423.html" target="_blank"
+          rel="noopener">
           Read the China Daily feature →
         </a>
       </div>
@@ -243,16 +275,16 @@
       <div class="contact-actions">
         <a href="mailto:zhangboy0205@outlook.com" class="btn btn-primary btn-large">
           <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
-            <path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"/>
-            <polyline points="22,6 12,13 2,6"/>
+            <path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z" />
+            <polyline points="22,6 12,13 2,6" />
           </svg>
           Email Me
         </a>
-        <a href="/Boyu_Zhang_CV.pdf" class="btn btn-secondary btn-large" download>
+        <a href="Boyu_Zhang_CV.pdf" class="btn btn-secondary btn-large" download="Boyu_Zhang_CV.pdf">
           <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
-            <path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"/>
-            <polyline points="7 10 12 15 17 10"/>
-            <line x1="12" y1="15" x2="12" y2="3"/>
+            <path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4" />
+            <polyline points="7 10 12 15 17 10" />
+            <line x1="12" y1="15" x2="12" y2="3" />
           </svg>
           Download CV
         </a>
@@ -267,6 +299,104 @@
     </div>
   </footer>
 
-  <script type="module" src="/main.js"></script>
+  <!-- Video Modal for Qingnian Ge -->
+  <div id="qingnian-video" class="video-modal">
+    <div class="video-modal-content">
+      <button class="video-modal-close" onclick="closeVideoModal('qingnian-video')">
+        <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+          <line x1="18" y1="6" x2="6" y2="18" />
+          <line x1="6" y1="6" x2="18" y2="18" />
+        </svg>
+      </button>
+      <div class="video-container">
+        <video controls preload="metadata">
+          <source src="video/video.mov" type="video/quicktime">
+          <source src="video/video.mov" type="video/mp4">
+          Your browser does not support video playback.
+        </video>
+      </div>
+      <p class="video-note">If video doesn't load, <a href="video/video.mov" download>download it here</a>.</p>
+    </div>
+  </div>
+
+  <!-- Video Modal for MAIC -->
+  <div id="maic-videos" class="video-modal">
+    <div class="video-modal-content maic-gallery">
+      <button class="video-modal-close" onclick="closeVideoModal('maic-videos')">
+        <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+          <line x1="18" y1="6" x2="6" y2="18" />
+          <line x1="6" y1="6" x2="18" y2="18" />
+        </svg>
+      </button>
+      <h3 class="video-gallery-title">MAIC Demo Videos</h3>
+      <div class="video-gallery">
+        <div class="video-item">
+          <video controls preload="metadata">
+            <source src="video/MAIC1.MOV" type="video/quicktime">
+            <source src="video/MAIC1.MOV" type="video/mp4">
+          </video>
+          <p>Demo 1</p>
+        </div>
+        <div class="video-item">
+          <video controls preload="metadata">
+            <source src="video/MAIC2.MOV" type="video/quicktime">
+            <source src="video/MAIC2.MOV" type="video/mp4">
+          </video>
+          <p>Demo 2</p>
+        </div>
+        <div class="video-item">
+          <video controls preload="metadata">
+            <source src="video/MAIC3.MOV" type="video/quicktime">
+            <source src="video/MAIC3.MOV" type="video/mp4">
+          </video>
+          <p>Demo 3</p>
+        </div>
+        <div class="video-item">
+          <video controls preload="metadata">
+            <source src="video/MAIC4.MOV" type="video/quicktime">
+            <source src="video/MAIC4.MOV" type="video/mp4">
+          </video>
+          <p>Demo 4</p>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <script type="module" src="main.js"></script>
+  <script>
+    // Video Modal Functions
+    function openVideoModal(modalId) {
+      const modal = document.getElementById(modalId);
+      modal.classList.add('active');
+      document.body.style.overflow = 'hidden';
+    }
+
+    function closeVideoModal(modalId) {
+      const modal = document.getElementById(modalId);
+      modal.classList.remove('active');
+      document.body.style.overflow = '';
+      // Pause all videos in the modal
+      modal.querySelectorAll('video').forEach(v => v.pause());
+    }
+
+    // Close modal on backdrop click
+    document.querySelectorAll('.video-modal').forEach(modal => {
+      modal.addEventListener('click', (e) => {
+        if (e.target === modal) {
+          closeVideoModal(modal.id);
+        }
+      });
+    });
+
+    // Close modal on Escape key
+    document.addEventListener('keydown', (e) => {
+      if (e.key === 'Escape') {
+        document.querySelectorAll('.video-modal.active').forEach(modal => {
+          closeVideoModal(modal.id);
+        });
+      }
+    });
+  </script>
 </body>
+
 </html>

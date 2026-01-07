@@ -138,12 +138,13 @@
               </div>
             </div>
             <div class="project-actions">
-              <button class="btn btn-outline" onclick="openVideoModal('qingnian-video')">
+              <a href="https://cloud.tsinghua.edu.cn/f/7c3de2a25e084421a2e2/" target="_blank" rel="noopener"
+                class="btn btn-outline">
                 <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
                   <polygon points="5 3 19 12 5 21 5 3" />
                 </svg>
                 Watch Introduction
-              </button>
+              </a>
             </div>
           </div>
         </article>
@@ -298,26 +299,6 @@
       <p>© 2026 Boyu Zhang. Built with purpose.</p>
     </div>
   </footer>
-
-  <!-- Video Modal for Qingnian Ge -->
-  <div id="qingnian-video" class="video-modal">
-    <div class="video-modal-content">
-      <button class="video-modal-close" onclick="closeVideoModal('qingnian-video')">
-        <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
-          <line x1="18" y1="6" x2="6" y2="18" />
-          <line x1="6" y1="6" x2="18" y2="18" />
-        </svg>
-      </button>
-      <div class="video-container">
-        <video controls preload="metadata">
-          <source src="video/video.mov" type="video/quicktime">
-          <source src="video/video.mov" type="video/mp4">
-          Your browser does not support video playback.
-        </video>
-      </div>
-      <p class="video-note">If video doesn't load, <a href="video/video.mov" download>download it here</a>.</p>
-    </div>
-  </div>
 
   <!-- Video Modal for MAIC -->
   <div id="maic-videos" class="video-modal">
